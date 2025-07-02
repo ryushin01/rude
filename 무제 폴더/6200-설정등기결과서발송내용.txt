@@ -1,0 +1,73 @@
+TG_LEN        	 	          : 	Size 4 : 3000
+TG_DSC                         : 	Size 4 : 6200
+BNK_TG_NO                      : 	Size 8 :         
+FA_TG_NO                       : 	Size 8 :         
+KOS_TG_SND_NO                  : 	Size 14 : 20250527904508
+TG_SND_DTM                     : 	Size 14 : 20250527124721
+TG_RCV_DTM                     : 	Size 14 :               
+RES_CD                         : 	Size 3 :    
+RSRV_ITM_H                     : 	Size 35 :                                    
+BNK_TTL_REQ_NO                 : 	Size 20 : 90225042556720000002
+LN_APRV_NO                     : 	Size 20 : 22504255672000      
+PROC_DSC                       : 	Size 2 : 02
+LND_KND_CD                     : 	Size 2 : 01
+FND_USE_CD                     : 	Size 2 : 01
+LND_PMNT_CNFM_SLF_CD           : 	Size 1 :  
+RCPT_INFO_CNFM_SLF_CD          : 	Size 1 :  
+THDY_RGSTR_ACPT_NO_INPT_YN     : 	Size 1 :  
+ESTBS_RGSTR_ACPT_NO_1          : 	Size 9 :          
+ESTBS_RGSTR_ACPT_NO_2          : 	Size 9 :          
+ESTBS_RGSTR_ACPT_NO_3          : 	Size 9 :          
+ERSR_ACPT_NO_1                 : 	Size 9 :          
+ERSR_ACPT_NO_2                 : 	Size 9 :          
+ERSR_ACPT_NO_3                 : 	Size 9 :          
+RMK_B1                         : 	Size 100 :                                                                                                     
+BNK_FXCLT_ESTBS_FN_YN          : 	Size 1 : N
+BNK_FXCLT_RNK_MTH_YN           : 	Size 1 : Y
+BNK_FXCLT_ESTBS_NO_MTH_YN      : 	Size 1 : Y
+RGST_ATCP_THNG_ADDR            : 	Size 300 : 경기도 파주시 경의로 1250, 엠버418오피스텔 제10층 제1005호 [와동동 1454 엠버418오피스텔]                                                                                                                                                                                                                    
+RGSTR_UNQ_NO_1                 : 	Size 14 : 28492019003536
+RGSTR_UNQ_NO_2                 : 	Size 14 :               
+RGSTR_UNQ_NO_3                 : 	Size 14 :               
+RGSTR_UNQ_NO_4                 : 	Size 14 :               
+RGSTR_UNQ_NO_5                 : 	Size 14 :               
+BNK_FXCLT_RGSTR_ACPT_DT        : 	Size 8 : 20250512
+OWN_OWNSH_MV_RGSTR_ACPT_DT     : 	Size 8 : 20211230
+OWN_NM_1                       : 	Size 50 : 권미연                                            
+OWN_NM_2                       : 	Size 50 :                                                   
+OWN_NM_3                       : 	Size 50 :                                                   
+OWN_BIRTH_DT_1                 : 	Size 13 : 930508       
+OWN_BIRTH_DT_2                 : 	Size 13 :              
+OWN_BIRTH_DT_3                 : 	Size 13 :              
+RMK_B2                         : 	Size 150 :   / 청약의뢰서와 등기부등본의 채권 최고액 상이 , 법무서 업로드 설정계약서와 동일함                                                                    
+DBTR_RRCP_SBMT_YN              : 	Size 1 :  
+DBTR_FRC_SBMT_YN               : 	Size 1 :  
+RRCP_DBTR_SLF_RGST_YN          : 	Size 1 :  
+RRCP_SPUS_RGST_YN              : 	Size 1 :  
+FRC_SPUS_CNFM_YN               : 	Size 1 :  
+RMK_B3                         : 	Size 150 :                                                                                                                                                       
+DBTR_TGRC_SBMT_YN              : 	Size 1 :  
+TGRC_DBTR_SLF_MVIN_YN          : 	Size 1 :  
+TGRC_DBTR_OTSD_SPRT_HSHLD_EANE : 	Size 1 :  
+EXEDT_MV_MVIN_EANE             : 	Size 1 :  
+BNK_DBTR_TGRC_MTH_YN           : 	Size 1 :  
+MVIN_HSHLD_RD_DTM              : 	Size 14 :               
+RMK_B4                         : 	Size 200 :                                                                                                                                                                                                         
+RSCH_AGNC_NM                   : 	Size 30 : (주)뱅크클리어                
+SRCHR_NM                       : 	Size 50 : 황혜미                                            
+SRCHR_PHNO                     : 	Size 20 : 1877-2495           
+RSCH_DTM                       : 	Size 14 : 20250527124721
+SRV_RSCH_DSC                   : 	Size 1 :  
+OJT_ANS                        : 	Size 50 :                                                   
+SJT_ANS_1                      : 	Size 200 :                                                                                                                                                                                                         
+SJT_ANS_2                      : 	Size 200 :                                                                                                                                                                                                         
+SJT_ANS_3                      : 	Size 200 :                                                                                                                                                                                                         
+SJT_ANS_4                      : 	Size 200 :                                                                                                                                                                                                         
+SJT_ANS_5                      : 	Size 200 :                                                                                                                                                                                                         
+SLF_CTFC_AGNC                  : 	Size 50 :                                                   
+SLF_CTFC_TM                    : 	Size 12 :             
+RESYN                          : 	Size 1 :  
+PSL_CNFM_STRD_OPTM_YN          : 	Size 1 :  
+PSL_CNFM_RSLT_BNK_TRNS_YN      : 	Size 1 :  
+PSL_CNFM_RSLT_BNK_RCV_TM       : 	Size 12 :             
+RSRV_ITM_B                     : 	Size 353 :                                                                                                                                                                                                                                                                                                                                                                  

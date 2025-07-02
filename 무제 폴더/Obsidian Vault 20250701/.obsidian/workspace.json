@@ -1,0 +1,420 @@
+{
+  "main": {
+    "id": "545241e6968297e6",
+    "type": "split",
+    "children": [
+      {
+        "id": "ff29ae833bb49b9a",
+        "type": "split",
+        "children": [
+          {
+            "id": "e8e525020f8af1d2",
+            "type": "tabs",
+            "dimension": 18.95734597156398,
+            "children": [
+              {
+                "id": "cea558aae730c753",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "20250418.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "20250418"
+                }
+              },
+              {
+                "id": "7f9677b94bcb81a4",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "어드민 통계 개발.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "어드민 통계 개발"
+                }
+              },
+              {
+                "id": "a66d08de8deb8706",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "20250616.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "20250616"
+                }
+              },
+              {
+                "id": "c2775d2c6442b6b9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "20250630.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "20250630"
+                }
+              },
+              {
+                "id": "bb4c42d9abd21f1b",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "추후 처리 예정 목록_20250623.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "추후 처리 예정 목록_20250623"
+                }
+              },
+              {
+                "id": "efa4e7d177717dd6",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "차세대 코스 웹 릴리즈 노트 (20250627).md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "차세대 코스 웹 릴리즈 노트 (20250627)"
+                }
+              },
+              {
+                "id": "4a5db0e5e0f9c579",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "무제 1.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "무제 1"
+                }
+              },
+              {
+                "id": "db36be0d2779dc94",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "테스트 환경 계정.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "테스트 환경 계정"
+                }
+              }
+            ],
+            "currentTab": 4
+          },
+          {
+            "id": "4e6a04316acdebf1",
+            "type": "tabs",
+            "dimension": 81.04265402843602,
+            "children": [
+              {
+                "id": "6e9acaad2adf7f03",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "SR Test.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "SR Test"
+                }
+              },
+              {
+                "id": "7e7d98265b9a361a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "STAT_CD.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "STAT_CD"
+                }
+              },
+              {
+                "id": "b51c0d09d63923dd",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "사건 초기화 쿼리.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "사건 초기화 쿼리"
+                }
+              },
+              {
+                "id": "e65315f053b5a41a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Todo List (우선 순위 설정 필요) - 리팩토링 추가.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Todo List (우선 순위 설정 필요) - 리팩토링 추가"
+                }
+              },
+              {
+                "id": "c74de3cc55a12bf4",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "운영 업무 및 인수인계 절차.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "운영 업무 및 인수인계 절차"
+                }
+              },
+              {
+                "id": "f1a9a050791f5507",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "어드민 통계 개발.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "어드민 통계 개발"
+                }
+              },
+              {
+                "id": "b635fe2f19734bb1",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "20250701.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "20250701"
+                }
+              }
+            ],
+            "currentTab": 6
+          }
+        ],
+        "direction": "horizontal"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8d840c67474e5548",
+    "type": "split",
+    "children": [
+      {
+        "id": "8690fc5c80f09cc8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3c0733e655af7d8a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "89247f27c325a9c4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "c5e2e636ca9a2af5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "8fba69dae2753eae",
+    "type": "split",
+    "children": [
+      {
+        "id": "7768c35a498a6942",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fee3150caa6ff4e7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "20250124.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "20250124의 백링크"
+            }
+          },
+          {
+            "id": "6cb77324c0e89cae",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "나가는 링크"
+            }
+          },
+          {
+            "id": "80a60a5df1aa9180",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "daafad8112c548df",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "개요"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "b635fe2f19734bb1",
+  "lastOpenFiles": [
+    "어드민 통계 개발.md",
+    "Design System.md",
+    "20250701.md",
+    "STAT_CD.md",
+    "Dartdoc + a.md",
+    "플러터 어드민 left menu 추가.md",
+    "운영 업무 및 인수인계 절차.md",
+    "20250530.md",
+    "추후 처리 예정 목록_20250623.md",
+    "무제 1.md",
+    "테스트 환경 계정.md",
+    "차세대 코스 웹 릴리즈 노트 (20250627).md",
+    "20250616.md",
+    "Todo List (우선 순위 설정 필요) - 리팩토링 추가.md",
+    "무제 6.md",
+    "버전 관리.md",
+    "20250625.md",
+    "여신번호로 사업자 번호 검색 + 사업자 번호로 회원번호 및 핀번호 검색 스크립트.md",
+    "차세대 코스 웹 릴리즈 노트 1.md",
+    "무제 5.md",
+    "20250625 1.md",
+    "무제 4.md",
+    "무제 3.md",
+    "20250617.md",
+    "당일업무 진행단계 조회.md",
+    "20250624 1.md",
+    "image (7).png",
+    "image (7).png.crdownload",
+    "image (6).png",
+    "image (5).png",
+    "image (4).png",
+    "image (3).png",
+    "image (3).png.crdownload",
+    "image (2).png",
+    "image (2).png.crdownload",
+    "image (1).png",
+    "image.png",
+    "screencapture-notion-so-bankle-2115a9ad1c9a80d1be30c66d3d01cf4d-2025-06-16-16_49_09.png",
+    "image.jpeg",
+    ".md"
+  ]
+}

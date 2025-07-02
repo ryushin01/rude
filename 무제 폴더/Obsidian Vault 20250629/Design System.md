@@ -1,0 +1,14 @@
+- https://www.spaceone.megazone.io/blog/design-system
+- https://brunch.co.kr/@august9/343
+- https://www.designsystems.com/
+- https://m3.material.io/
+- https://fluent2.microsoft.design/#/
+- https://react.fluentui.dev/?path=/docs/theme-colors--page
+- https://www.atlassian.com/
+- https://atlassian.design/
+- https://polaris-react.shopify.com/
+- https://developer.apple.com/design/human-interface-guidelines/
+- https://carbondesignsystem.com/
+- https://styleguide.audi.com/
+- https://www.lightningdesignsystem.com/2e1ef8501/p/85bd85-lightning-design-system-2
+- 

@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)https://choiemh.tistory.com/41 -->
+<html lang="ko" data-phocus-theme="dark"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                <script type="text/javascript">if (!window.T) { window.T = {} }
+window.T.config = {"TOP_SSL_URL":"https://www.tistory.com","PREVIEW":false,"ROLE":"guest","PREV_PAGE":"","NEXT_PAGE":"","BLOG":{"id":4967991,"name":"choiemh","title":"✏️공부기록","isDormancy":false,"nickName":"qkrgusqls","status":"open","profileStatus":"normal"},"NEED_COMMENT_LOGIN":false,"COMMENT_LOGIN_CONFIRM_MESSAGE":"","LOGIN_URL":"https://www.tistory.com/auth/login/?redirectUrl=https://choiemh.tistory.com/41","DEFAULT_URL":"https://choiemh.tistory.com","USER":{"name":null,"homepage":null,"id":0,"profileImage":null},"SUBSCRIPTION":{"status":"none","isConnected":false,"isPending":false,"isWait":false,"isProcessing":false,"isNone":true},"IS_LOGIN":false,"HAS_BLOG":false,"IS_SUPPORT":false,"IS_SCRAPABLE":false,"TOP_URL":"http://www.tistory.com","JOIN_URL":"https://www.tistory.com/member/join","PHASE":"prod","ROLE_GROUP":"visitor"};
+window.T.entryInfo = {"entryId":41,"isAuthor":false,"categoryId":1002629,"categoryLabel":"개발/Flutter"};
+window.appInfo = {"domain":"tistory.com","topUrl":"https://www.tistory.com","loginUrl":"https://www.tistory.com/auth/login","logoutUrl":"https://www.tistory.com/auth/logout"};
+window.initData = {};
+
+window.TistoryBlog = {
+    basePath: "",
+    url: "https://choiemh.tistory.com",
+    tistoryUrl: "https://choiemh.tistory.com",
+    manageUrl: "https://choiemh.tistory.com/manage",
+    token: "mbqkiWTubLokrboX0xkKVDuFiPqAxGe/ixsqQgvgo6tOH2MJFFimnkQZakdV9dao"
+};
+var servicePath = "";
+var blogURL = "";</script>
+
+                
+                
+                
+                        <!-- BusinessLicenseInfo - START -->
+        
+            <link href="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/style.css" rel="stylesheet" type="text/css">
+
+            <script>function switchFold(entryId) {
+    var businessLayer = document.getElementById("businessInfoLayer_" + entryId);
+
+    if (businessLayer) {
+        if (businessLayer.className.indexOf("unfold_license") > 0) {
+            businessLayer.className = "business_license_layer";
+        } else {
+            businessLayer.className = "business_license_layer unfold_license";
+        }
+    }
+}
+</script>
+
+        
+        <!-- BusinessLicenseInfo - END -->
+        <!-- DaumShow - START -->
+        <style type="text/css">#daumSearchBox {
+    height: 21px;
+    background-image: url(//i1.daumcdn.net/imgsrc.search/search_all/show/tistory/plugin/bg_search2_2.gif);
+    margin: 5px auto;
+    padding: 0;
+}
+
+#daumSearchBox input {
+    background: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#daumSearchBox #daumLogo {
+    width: 34px;
+    height: 21px;
+    float: left;
+    margin-right: 5px;
+    background-image: url(//i1.daumcdn.net/img-media/tistory/img/bg_search1_2_2010ci.gif);
+}
+
+#daumSearchBox #show_q {
+    background-color: transparent;
+    border: none;
+    font: 12px Gulim, Sans-serif;
+    color: #555;
+    margin-top: 4px;
+    margin-right: 15px;
+    float: left;
+}
+
+#daumSearchBox #show_btn {
+    background-image: url(//i1.daumcdn.net/imgsrc.search/search_all/show/tistory/plugin/bt_search_2.gif);
+    width: 37px;
+    height: 21px;
+    float: left;
+    margin: 0;
+    cursor: pointer;
+    text-indent: -1000em;
+}
+</style>
+
+        <!-- DaumShow - END -->
+
+<!-- System - START -->
+
+<!-- System - END -->
+
+        <!-- TistoryProfileLayer - START -->
+        <link href="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/style(1).css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/script.js"></script>
+
+        <!-- TistoryProfileLayer - END -->
+
+                
+                <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="format-detection" content="telephone=no">
+<script src="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/tiara.min.js"></script><meta name="referrer" content="always">
+<meta name="google-adsense-platform-account" content="ca-host-pub-9691043933427338">
+<meta name="google-adsense-platform-domain" content="tistory.com">
+<meta name="description" content="pub.dev/packages/syncfusion_flutter_charts syncfusion_flutter_charts | Flutter Package A Flutter Charts library which includes data visualization widgets such as cartesian and circular charts, to create real-time, interactive, high-performance, animated charts. pub.dev 다행히 프로젝트에 사용했던 chart는 막대그래프였기 때문에, 차트를 custom할 필요가 없었다. project 내의 pubspec.yaml 파일에 패키지 추가해주기 syncfusion_flutter_charts: ^22.2.9..">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://choiemh.tistory.com/41">
+<meta property="og.article.author" content="qkrgusqls">
+<meta property="og:site_name" content="✏️공부기록">
+<meta property="og:title" content="[flutter] 차트 패키지 syncfusion_flutter_charts">
+<meta name="by" content="qkrgusqls">
+<meta property="og:description" content="pub.dev/packages/syncfusion_flutter_charts syncfusion_flutter_charts | Flutter Package A Flutter Charts library which includes data visualization widgets such as cartesian and circular charts, to create real-time, interactive, high-performance, animated charts. pub.dev 다행히 프로젝트에 사용했던 chart는 막대그래프였기 때문에, 차트를 custom할 필요가 없었다. project 내의 pubspec.yaml 파일에 패키지 추가해주기 syncfusion_flutter_charts: ^22.2.9..">
+<meta property="og:image" content="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FR8HMg%2FbtsuIAyn565%2FAAAAAAAAAAAAAAAAAAAAAD2Nuk5oFwFo2mRBQjKBQ5Z2B5aLmxblpuKGecX5OuSi%2Fimg.jpg%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1751295599%26allow_ip%3D%26allow_referer%3D%26signature%3DvXhbg%252FzotlLWer08zH4dvXncXts%253D">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@TISTORY">
+<meta name="twitter:title" content="[flutter] 차트 패키지 syncfusion_flutter_charts">
+<meta name="twitter:description" content="pub.dev/packages/syncfusion_flutter_charts syncfusion_flutter_charts | Flutter Package A Flutter Charts library which includes data visualization widgets such as cartesian and circular charts, to create real-time, interactive, high-performance, animated charts. pub.dev 다행히 프로젝트에 사용했던 chart는 막대그래프였기 때문에, 차트를 custom할 필요가 없었다. project 내의 pubspec.yaml 파일에 패키지 추가해주기 syncfusion_flutter_charts: ^22.2.9..">
+<meta property="twitter:image" content="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FR8HMg%2FbtsuIAyn565%2FAAAAAAAAAAAAAAAAAAAAAD2Nuk5oFwFo2mRBQjKBQ5Z2B5aLmxblpuKGecX5OuSi%2Fimg.jpg%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1751295599%26allow_ip%3D%26allow_referer%3D%26signature%3DvXhbg%252FzotlLWer08zH4dvXncXts%253D">
+<meta content="https://choiemh.tistory.com/41" property="dg:plink">
+<meta name="plink">
+<meta name="title" content="[flutter] 차트 패키지 syncfusion_flutter_charts">
+<meta name="article:media_name" content="✏️공부기록">
+<meta property="article:mobile_url" content="https://choiemh.tistory.com/m/41">
+<meta property="article:pc_url" content="https://choiemh.tistory.com/41">
+<meta property="article:mobile_view_url" content="https://choiemh.tistory.com/m/41">
+<meta property="article:pc_view_url" content="https://choiemh.tistory.com/41">
+<meta property="article:talk_channel_view_url" content="https://choiemh.tistory.com/m/41">
+<meta property="article:pc_service_home" content="https://www.tistory.com">
+<meta property="article:mobile_service_home" content="https://www.tistory.com/m">
+<meta property="article:txid" content="4967991_41">
+<meta property="article:published_time" content="2023-09-20T16:02:15+09:00">
+<meta property="og:regDate" content="20230920040215">
+<meta property="article:modified_time" content="2023-10-12T13:17:05+09:00">
+<script type="module" src="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/index.js" defer=""></script>
+<script type="text/javascript" src="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/index-legacy.js" defer="" nomodule="true"></script>
+<script type="text/javascript" src="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/polyfills-legacy.js" defer="" nomodule="true"></script>
+<link rel="icon" sizes="any" href="https://t1.daumcdn.net/tistory_admin/favicon/tistory_favicon_32x32.ico">
+<link rel="icon" type="image/svg+xml" href="https://t1.daumcdn.net/tistory_admin/top_v2/bi-tistory-favicon.svg">
+<link rel="apple-touch-icon" href="https://t1.daumcdn.net/tistory_admin/top_v2/tistory-apple-touch-favicon.png">
+<link rel="stylesheet" type="text/css" href="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/font.css">
+<link rel="stylesheet" type="text/css" href="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/content.css">
+<link rel="stylesheet" type="text/css" href="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/index.css">
+<link rel="stylesheet" type="text/css" href="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/uselessPMargin.css">
+<script type="text/javascript">(function() {
+    var tjQuery = jQuery.noConflict(true);
+    window.tjQuery = tjQuery;
+    window.orgjQuery = window.jQuery; window.jQuery = tjQuery;
+    window.jQuery = window.orgjQuery; delete window.orgjQuery;
+})()</script>
+<script type="text/javascript" src="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/base.js"></script>
+<script type="text/javascript" src="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/kakao.min.js"></script>
+
+                
+  
+  <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+  <title>[flutter] 차트 패키지 syncfusion_flutter_charts</title>
+  <link rel="alternate" type="application/rss+xml" title="✏️공부기록" href="https://choiemh.tistory.com/rss">
+
+  <link rel="stylesheet" href="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/style(2).css">
+
+  <!--[if lt IE 9]>
+	<script src="//t1.daumcdn.net/tistory_admin/lib/jquery/jquery-1.12.4.min.js"></script>
+	<![endif]-->
+  <!--[if gte IE 9]><!-->
+  <script src="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <!--<![endif]-->
+
+                
+                
+                <style type="text/css">.another_category {
+    border: 1px solid #E5E5E5;
+    padding: 10px 10px 5px;
+    margin: 10px 0;
+    clear: both;
+}
+
+.another_category h4 {
+    font-size: 12px !important;
+    margin: 0 !important;
+    border-bottom: 1px solid #E5E5E5 !important;
+    padding: 2px 0 6px !important;
+}
+
+.another_category h4 a {
+    font-weight: bold !important;
+}
+
+.another_category table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100% !important;
+    margin-top: 10px !important;
+}
+
+* html .another_category table {
+    width: auto !important;
+}
+
+*:first-child + html .another_category table {
+    width: auto !important;
+}
+
+.another_category th, .another_category td {
+    padding: 0 0 4px !important;
+}
+
+.another_category th {
+    text-align: left;
+    font-size: 12px !important;
+    font-weight: normal;
+    word-break: break-all;
+    overflow: hidden;
+    line-height: 1.5;
+}
+
+.another_category td {
+    text-align: right;
+    width: 80px;
+    font-size: 11px;
+}
+
+.another_category th a {
+    font-weight: normal;
+    text-decoration: none;
+    border: none !important;
+}
+
+.another_category th a.current {
+    font-weight: bold;
+    text-decoration: none !important;
+    border-bottom: 1px solid !important;
+}
+
+.another_category th span {
+    font-weight: normal;
+    text-decoration: none;
+    font: 10px Tahoma, Sans-serif;
+    border: none !important;
+}
+
+.another_category_color_gray, .another_category_color_gray h4 {
+    border-color: #E5E5E5 !important;
+}
+
+.another_category_color_gray * {
+    color: #909090 !important;
+}
+
+.another_category_color_gray th a.current {
+    border-color: #909090 !important;
+}
+
+.another_category_color_gray h4, .another_category_color_gray h4 a {
+    color: #737373 !important;
+}
+
+.another_category_color_red, .another_category_color_red h4 {
+    border-color: #F6D4D3 !important;
+}
+
+.another_category_color_red * {
+    color: #E86869 !important;
+}
+
+.another_category_color_red th a.current {
+    border-color: #E86869 !important;
+}
+
+.another_category_color_red h4, .another_category_color_red h4 a {
+    color: #ED0908 !important;
+}
+
+.another_category_color_green, .another_category_color_green h4 {
+    border-color: #CCE7C8 !important;
+}
+
+.another_category_color_green * {
+    color: #64C05B !important;
+}
+
+.another_category_color_green th a.current {
+    border-color: #64C05B !important;
+}
+
+.another_category_color_green h4, .another_category_color_green h4 a {
+    color: #3EA731 !important;
+}
+
+.another_category_color_blue, .another_category_color_blue h4 {
+    border-color: #C8DAF2 !important;
+}
+
+.another_category_color_blue * {
+    color: #477FD6 !important;
+}
+
+.another_category_color_blue th a.current {
+    border-color: #477FD6 !important;
+}
+
+.another_category_color_blue h4, .another_category_color_blue h4 a {
+    color: #1960CA !important;
+}
+
+.another_category_color_violet, .another_category_color_violet h4 {
+    border-color: #E1CEEC !important;
+}
+
+.another_category_color_violet * {
+    color: #9D64C5 !important;
+}
+
+.another_category_color_violet th a.current {
+    border-color: #9D64C5 !important;
+}
+
+.another_category_color_violet h4, .another_category_color_violet h4 a {
+    color: #7E2CB5 !important;
+}
+</style>
+
+                
+                <link rel="stylesheet" type="text/css" href="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/revenue.css">
+<link rel="canonical" href="https://choiemh.tistory.com/41">
+
+<!-- BEGIN STRUCTURED_DATA -->
+<script type="application/ld+json">
+    {"@context":"http://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@id":"https://choiemh.tistory.com/41","name":null},"url":"https://choiemh.tistory.com/41","headline":"[flutter] 차트 패키지 syncfusion_flutter_charts","description":"pub.dev/packages/syncfusion_flutter_charts syncfusion_flutter_charts | Flutter Package A Flutter Charts library which includes data visualization widgets such as cartesian and circular charts, to create real-time, interactive, high-performance, animated charts. pub.dev 다행히 프로젝트에 사용했던 chart는 막대그래프였기 때문에, 차트를 custom할 필요가 없었다. project 내의 pubspec.yaml 파일에 패키지 추가해주기 syncfusion_flutter_charts: ^22.2.9..","author":{"@type":"Person","name":"qkrgusqls","logo":null},"image":{"@type":"ImageObject","url":"https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FR8HMg%2FbtsuIAyn565%2FAAAAAAAAAAAAAAAAAAAAAD2Nuk5oFwFo2mRBQjKBQ5Z2B5aLmxblpuKGecX5OuSi%2Fimg.jpg%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1751295599%26allow_ip%3D%26allow_referer%3D%26signature%3DvXhbg%252FzotlLWer08zH4dvXncXts%253D","width":"800px","height":"800px"},"datePublished":"2023-09-20T16:02:15+09:00","dateModified":"2023-10-12T13:17:05+09:00","publisher":{"@type":"Organization","name":"TISTORY","logo":{"@type":"ImageObject","url":"https://t1.daumcdn.net/tistory_admin/static/images/openGraph/opengraph.png","width":"800px","height":"800px"}}}
+</script>
+<!-- END STRUCTURED_DATA -->
+<link rel="stylesheet" type="text/css" href="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/dialog.css">
+<link rel="stylesheet" type="text/css" href="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/font(1).css">
+<link rel="stylesheet" type="text/css" href="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/postBtn.css">
+<link rel="stylesheet" type="text/css" href="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/tistory.css">
+<script type="text/javascript" src="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/common.js"></script>
+
+                
+                <style type="text/css">#DragSchLayer{display:block;position:absolute;z-index:1000;width:61px;height:31px;margin:-30px 0px 0px -5px;background:url(//search1.daumcdn.net/search/statics/common/pi/btn_drag_rect.png);cursor:pointer}             @media             only screen and (-webkit-min-device-pixel-ratio: 1.5),             only screen and (min-device-pixel-ratio: 1.5),             only screen and (min-resolution: 1.5dppx) {             #DragSchLayer{background-image:url(//search1.daumcdn.net/search/statics/common/pi/r2/btn_drag_rect.png);background-size:61px 31px}}            </style></head>
+
+                                                <body id="tt-body-page">
+                
+                
+                
+  
+    <div id="dkIndex">
+      <a href="https://choiemh.tistory.com/41#dkBody">본문 바로가기</a>
+      <a href="https://choiemh.tistory.com/41#dkGnb">메뉴 바로가기</a>
+    </div>
+
+    <div id="dkWrap" class="wrap_skin ">
+      <div id="dkHead" role="banner" class="area_head ">
+        <h1 class="screen_out">✏️공부기록</h1>
+        <div class="area_profile ">
+          <a class="link_profile" href="https://choiemh.tistory.com/"><img src="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/a8b24b452162440aa19c9d392ad69394" width="50" height="50" class="img_profile" alt="프로필사진"></a>
+          <div class="info_profile">
+            <button type="button" class="btn_name">qkrgusqls
+              <span class="ico_skin ico_name"></span>
+            </button>
+            <ul class="list_name">
+              <li><a href="https://choiemh.tistory.com/manage/entry/post" class="link_name">글쓰기</a></li>
+              <li><a href="https://choiemh.tistory.com/manage" class="link_name">관리</a></li>
+              <li class="box_division"><a href="https://choiemh.tistory.com/tag" class="link_name">태그</a></li>
+              <li><a href="https://choiemh.tistory.com/guestbook" class="link_name">방명록</a></li>
+              <li><a href="https://choiemh.tistory.com/rss" class="link_name">RSS</a></li>
+            </ul>
+            <p class="txt_condition">✏️공부기록</p>
+          </div>
+        </div>
+
+        <button type="button" class="btn_menu">
+          <span class="ico_skin ico_menu">카테고리 메뉴열기</span>
+        </button>
+      </div>
+
+      <div class="dimmed_layer"></div>
+
+      <button type="button" class="btn_close">
+        <span class="ico_skin ico_close">닫기</span>
+      </button>
+
+      <div class="area_menu">
+        
+          <div class="area_search">
+            <button type="button" class="btn_search">
+              <span class="ico_skin ico_search">검색하기</span>
+            </button>
+            <form action="https://choiemh.tistory.com/41#" method="get" class="frm_search" onsubmit="try {
+    window.location.href = &#39;/search&#39; + &#39;/&#39; + looseURIEncode(document.getElementsByName(&#39;search&#39;)[0].value);
+    document.getElementsByName(&#39;search&#39;)[0].value = &#39;&#39;;
+    return false;
+} catch (e) {}">
+              <fieldset>
+                <legend class="screen_out">검색하기 폼</legend>
+                <label for="tfSearch" class="ico_skin lab_search">블로그 내 검색</label>
+                <input id="tfSearch" type="text" name="search" value="" class="tf_search">
+              </fieldset>
+            </form>
+          </div>
+        
+
+        <div role="navigation" class="area_navi">
+          <button type="button" class="btn_cate">CATEGORY <span class="ico_skin ico_cate"></span></button>
+
+          <div class="list_cate">
+            <ul class="tt_category"><li class=""><a href="https://choiemh.tistory.com/category" class="link_tit"> 분류 전체보기 <span class="c_cnt">(56)</span> </a>
+  <ul class="category_list"><li class=""><a href="https://choiemh.tistory.com/category/%EC%96%B8%EC%96%B4" class="link_item"> 언어 <span class="c_cnt">(12)</span> </a>
+  <ul class="sub_category_list"><li class=""><a href="https://choiemh.tistory.com/category/%EC%96%B8%EC%96%B4/C" class="link_sub_item"> C <span class="c_cnt">(2)</span> </a></li>
+<li class=""><a href="https://choiemh.tistory.com/category/%EC%96%B8%EC%96%B4/Java" class="link_sub_item"> Java <span class="c_cnt">(7)</span> </a></li>
+<li class=""><a href="https://choiemh.tistory.com/category/%EC%96%B8%EC%96%B4/Kotlin" class="link_sub_item"> Kotlin <span class="c_cnt">(3)</span> </a></li>
+</ul>
+</li>
+<li class=""><a href="https://choiemh.tistory.com/category/%EA%B0%9C%EB%B0%9C" class="link_item"> 개발 <span class="c_cnt">(8)</span> </a>
+  <ul class="sub_category_list"><li class=""><a href="https://choiemh.tistory.com/category/%EA%B0%9C%EB%B0%9C/React" class="link_sub_item"> React <span class="c_cnt">(1)</span> </a></li>
+<li class=""><a href="https://choiemh.tistory.com/category/%EA%B0%9C%EB%B0%9C/Flutter" class="link_sub_item"> Flutter <span class="c_cnt">(7)</span> </a></li>
+</ul>
+</li>
+<li class=""><a href="https://choiemh.tistory.com/category/%EB%8D%B0%EC%9D%B4%ED%84%B0" class="link_item"> 데이터 <span class="c_cnt">(5)</span> </a>
+  <ul class="sub_category_list"><li class=""><a href="https://choiemh.tistory.com/category/%EB%8D%B0%EC%9D%B4%ED%84%B0/ADsP" class="link_sub_item"> ADsP <span class="c_cnt">(4)</span> </a></li>
+</ul>
+</li>
+<li class=""><a href="https://choiemh.tistory.com/category/KT%EC%97%90%EC%9D%B4%EB%B8%94%EC%8A%A4%EC%BF%A8" class="link_item"> KT에이블스쿨 <span class="c_cnt">(17)</span> </a></li>
+<li class=""><a href="https://choiemh.tistory.com/category/%EC%98%81%EC%96%B4" class="link_item"> 영어 <span class="c_cnt">(6)</span> </a>
+  <ul class="sub_category_list"><li class=""><a href="https://choiemh.tistory.com/category/%EC%98%81%EC%96%B4/%EC%98%81%EC%96%B4%EC%82%AC" class="link_sub_item"> 영어사 <span class="c_cnt">(1)</span> </a></li>
+<li class=""><a href="https://choiemh.tistory.com/category/%EC%98%81%EC%96%B4/%ED%86%A0%EC%9D%B5" class="link_sub_item"> 토익 <span class="c_cnt">(5)</span> </a></li>
+</ul>
+</li>
+<li class=""><a href="https://choiemh.tistory.com/category/AI" class="link_item"> AI <span class="c_cnt">(8)</span> </a>
+  <ul class="sub_category_list"><li class=""><a href="https://choiemh.tistory.com/category/AI/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%2C%20%EB%94%A5%EB%9F%AC%EB%8B%9D" class="link_sub_item"> 머신러닝, 딥러닝 <span class="c_cnt">(5)</span> </a></li>
+<li class=""><a href="https://choiemh.tistory.com/category/AI/NLP" class="link_sub_item"> NLP <span class="c_cnt">(3)</span> </a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+
+            <ul class="menu_profile">
+              <li><a href="https://choiemh.tistory.com/guestbook">방명록</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <hr class="hide">
+
+      
+
+      <div id="dkContent" class="cont_skin" role="main">
+        <div id="cMain">
+
+          
+
+          
+
+          
+
+                
+          
+  <div id="mArticle" class="article_skin">
+
+    
+
+    
+      <div class="skin_view">
+        <h2 id="dkBody" class="screen_out">티스토리 뷰</h2>
+        <div class="area_title">
+          <strong class="tit_category"><a href="https://choiemh.tistory.com/category/%EA%B0%9C%EB%B0%9C/Flutter">개발/Flutter</a></strong>
+          <h3 class="tit_post"><a href="https://choiemh.tistory.com/41">[flutter] 차트 패키지 syncfusion_flutter_charts</a></h3>
+          <span class="txt_detail my_post">qkrgusqls
+            <span class="txt_bar"></span>2023. 9. 20. 16:02
+            
+          </span>
+        </div>
+        <div class="area_view" id="article-view">
+                      <!-- System - START -->
+
+<!-- System - END -->
+
+            <div class="tt_article_useless_p_margin contents_style"><p data-ke-size="size16"><span style="color: #000000; font-family: AppleSDGothicNeo-Regular, &#39;Malgun Gothic&#39;, &#39;맑은 고딕&#39;, dotum, 돋움, sans-serif;"><a style="color: #000000; text-align: left;" href="https://pub.dev/packages/syncfusion_flutter_charts">pub.dev/packages/syncfusion_flutter_charts</a></span></p>
+<p data-ke-size="size16">&nbsp;</p>
+<figure id="og_1695192567312" contenteditable="false" data-ke-type="opengraph" data-ke-align="alignCenter" data-og-type="website" data-og-title="syncfusion_flutter_charts | Flutter Package" data-og-description="A Flutter Charts library which includes data visualization widgets such as cartesian and circular charts, to create real-time, interactive, high-performance, animated charts." data-og-host="pub.dev" data-og-source-url="https://pub.dev/packages/syncfusion_flutter_charts" data-og-url="https://pub.dev/packages/syncfusion_flutter_charts" data-og-image="https://blog.kakaocdn.net/dna/MAdho/hyTZbFG4Si/AAAAAAAAAAAAAAAAAAAAAEf4xhiNKIC_5fm2PS5ZkEJ7qnCkSjFFz-eCgYsfFki8/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1751295599&amp;allow_ip=&amp;allow_referer=&amp;signature=rWpGOaIOktnWiA8byOuPyUgQ3SE%3D"><a href="https://pub.dev/packages/syncfusion_flutter_charts" target="_blank" rel="noopener" data-source-url="https://pub.dev/packages/syncfusion_flutter_charts">
+<div class="og-image" style="background-image: url(&#39;https://blog.kakaocdn.net/dna/MAdho/hyTZbFG4Si/AAAAAAAAAAAAAAAAAAAAAEf4xhiNKIC_5fm2PS5ZkEJ7qnCkSjFFz-eCgYsfFki8/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1751295599&amp;allow_ip=&amp;allow_referer=&amp;signature=rWpGOaIOktnWiA8byOuPyUgQ3SE%3D&#39;);">&nbsp;</div>
+<div class="og-text">
+<p class="og-title" data-ke-size="size16">syncfusion_flutter_charts | Flutter Package</p>
+<p class="og-desc" data-ke-size="size16">A Flutter Charts library which includes data visualization widgets such as cartesian and circular charts, to create real-time, interactive, high-performance, animated charts.</p>
+<p class="og-host" data-ke-size="size16">pub.dev</p>
+</div>
+</a></figure>
+<p data-ke-size="size16"><br><span style="color: #000000;">다행히 프로젝트에 사용했던 chart는 막대그래프였기 때문에, 차트를 custom할 필요가 없었다.&nbsp;</span></p>
+<p data-ke-size="size16">&nbsp;</p>
+<ul style="list-style-type: disc;" data-ke-list-type="disc">
+<li><span style="color: #000000;">project 내의 pubspec.yaml 파일에 패키지 추가해주기</span></li>
+</ul>
+<pre id="code_1695192710680" class="cpp" data-ke-language="cpp" data-ke-type="codeblock"><code class="hljs">  syncfusion_flutter_charts: ^<span class="hljs-number">22.2</span><span class="hljs-number">.9</span></code></pre>
+<p data-ke-size="size16">&nbsp;</p>
+<ul style="list-style-type: disc;" data-ke-list-type="disc">
+<li><span style="color: #000000;">차트를 불러와야할 파일의 최상단에 import 해주기</span></li>
+</ul>
+<pre id="code_1695193525758" class="cpp" data-ke-language="cpp" data-ke-type="codeblock"><code class="hljs"><span class="hljs-keyword">import</span> <span class="hljs-string">'package:syncfusion_flutter_charts/charts.dart'</span>;</code></pre>
+<p data-ke-size="size16">&nbsp;</p>
+<h3 data-ke-size="size23"><span style="background-color: #f6e199; color: #000000;"><b>차트 데이터</b></span></h3>
+<p data-ke-size="size16">&nbsp;</p>
+<pre id="code_1695193667213" class="cpp" data-ke-language="cpp" data-ke-type="codeblock"><code class="hljs"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ChartData</span> {</span>
+  <span class="hljs-keyword">final</span> String x;
+  <span class="hljs-keyword">final</span> <span class="hljs-keyword">double</span> y;
+  <span class="hljs-keyword">final</span> Color color;
+
+  <span class="hljs-built_in">ChartData</span>(<span class="hljs-keyword">this</span>.x, <span class="hljs-keyword">this</span>.y, <span class="hljs-keyword">this</span>.color);
+}</code></pre>
+<p data-ke-size="size16">&nbsp;</p>
+<p data-ke-size="size16"><span style="color: #000000;">차트의 데이터를 나타내는 사용자 정의 클래스이다. </span><br><span style="color: #000000;">X축 레이블(x), Y축 값(y), 데이터 포인트의 색상(color)에 대한 속성이 포함되어 있다.</span></p>
+<p data-ke-size="size16">&nbsp;</p>
+<p data-ke-size="size16">&nbsp;</p>
+<pre id="code_1695193977377" class="cpp" data-ke-language="cpp" data-ke-type="codeblock"><code class="hljs">    <span class="hljs-built_in">setState</span>(() {
+      data = [
+
+        <span class="hljs-built_in">ChartData</span>(
+          <span class="hljs-string">'점수'</span>,
+          Score,
+          <span class="hljs-keyword">const</span> Color.<span class="hljs-built_in">fromARGB</span>(<span class="hljs-number">255</span>, <span class="hljs-number">241</span>, <span class="hljs-number">133</span>, <span class="hljs-number">145</span>),
+        ),
+      ];
+    });</code></pre>
+<p data-ke-size="size16">&nbsp;</p>
+<p data-ke-size="size16"><span style="color: #000000;">위의 클래스에 따라 차트데이터를 업데이트 해준다.</span></p>
+<p data-ke-size="size16">&nbsp;</p>
+<h3 data-ke-size="size23"><span style="background-color: #f6e199; color: #000000;"><b>차트 UI</b></span></h3>
+<p data-ke-size="size16"><span style="color: #000000;">페이지 전체에 차트가 꽉차는 것을 원하지 않아서, center를 통해 중앙정렬하고 container로 감싸주었다.&nbsp;</span></p>
+<pre id="code_1695194428775" class="cpp" data-ke-language="cpp" data-ke-type="codeblock"><code class="hljs"><span class="hljs-built_in">SfCartesianChart</span>(
+  primaryXAxis: <span class="hljs-built_in">CategoryAxis</span>(
+    labelStyle: <span class="hljs-keyword">const</span> <span class="hljs-built_in">TextStyle</span>(
+  <span class="hljs-comment">//</span>
+    ),
+  ),
+  primaryYAxis: <span class="hljs-built_in">NumericAxis</span>(
+    minimum: <span class="hljs-number">0</span>,
+    maximum: <span class="hljs-number">100</span>,
+    interval: <span class="hljs-number">10</span>,
+    ),
+  ),
+  tooltipBehavior: _tooltip,
+  series: &lt;ChartSeries&lt;ChartData, String&gt;&gt;[
+    BarSeries&lt;ChartData, String&gt;(
+      dataSource: data,
+      xValueMapper: (ChartData data, _) =&gt; data.x,
+      yValueMapper: (ChartData data, _) =&gt; data.y,
+      name: <span class="hljs-string">' '</span>,
+      pointColorMapper: (ChartData data, _) =&gt; data.color,
+      dataLabelSettings: <span class="hljs-keyword">const</span> <span class="hljs-built_in">DataLabelSettings</span>(
+        isVisible: <span class="hljs-literal">true</span>,
+      ),
+    ),
+  ],
+),</code></pre>
+<p data-ke-size="size16">&nbsp;</p>
+<p data-ke-size="size16"><span style="color: #000000;"><b>SfCartesianChart</b>: Syncfusion Flutter Charts의 CartesianChart로 데이터를 시각적으로 표시 했다.&nbsp;</span><br><br><span style="color: #000000;"><b>primaryXAxis 및 primaryYAxis</b>: 이 부분에서 X 축 및 Y 축을 구성한다.<br>X 축은 CategoryAxis로 정의되어 있으며, 레이블 스타일, 폰트 크기 및 색상을 설정할 수 있다. <br>Y 축은 NumericAxis로 정의되어 있으며, 최소값(minimum), 최대값(maximum), 간격(interval) 및 레이블 스타일을 설정한다.</span></p>
+<p data-ke-size="size16">&nbsp;</p>
+<p data-ke-size="size16"><br><span style="color: #000000;"><b>tooltipBehavior</b>: 이것은 차트에서 툴팁을 활성화하는 데 사용되는 구성 요소이다.</span><br><span style="color: #000000;">_tooltip 변수에 할당된 TooltipBehavior 객체를 사용한다.</span></p>
+<p style="color: #333333; text-align: start;" data-ke-size="size16"><span style="color: #000000;">툴팁을 활용하면 차트 위에 마우스를 가져다 놓았을 때, 팝업형태로 차트의 정보를 띄워줄 수 있다.&nbsp;</span></p>
+<p style="color: #333333; text-align: start;" data-ke-size="size16">&nbsp;</p>
+<p style="color: #333333; text-align: start;" data-ke-size="size16">&nbsp;</p>
+<p></p><figure class="imageblock alignCenter" data-ke-mobilestyle="widthOrigin" data-filename="스크린샷 2023-09-20 오후 4.26.03.png" data-origin-width="1346" data-origin-height="872"><span data-url="https://blog.kakaocdn.net/dna/bduaBR/btsuZRL32QC/AAAAAAAAAAAAAAAAAAAAACeCC2W8XIpyiDcu837nyI6c1KYgF3qBWFQ34Bs0SSlJ/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1751295599&amp;allow_ip=&amp;allow_referer=&amp;signature=19Im1fzOUww6Xx3htp6Wkk0jzLg%3D" data-phocus="https://blog.kakaocdn.net/dna/bduaBR/btsuZRL32QC/AAAAAAAAAAAAAAAAAAAAACeCC2W8XIpyiDcu837nyI6c1KYgF3qBWFQ34Bs0SSlJ/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1751295599&amp;allow_ip=&amp;allow_referer=&amp;signature=19Im1fzOUww6Xx3htp6Wkk0jzLg%3D" data-alt="툴팁 활용"><img src="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/img.png" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FbduaBR%2FbtsuZRL32QC%2FAAAAAAAAAAAAAAAAAAAAACeCC2W8XIpyiDcu837nyI6c1KYgF3qBWFQ34Bs0SSlJ%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1751295599%26allow_ip%3D%26allow_referer%3D%26signature%3D19Im1fzOUww6Xx3htp6Wkk0jzLg%253D" onerror="this.onerror=null; this.src=&#39;//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png&#39;; this.srcset=&#39;//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png&#39;;" loading="lazy" width="577" height="374" data-filename="스크린샷 2023-09-20 오후 4.26.03.png" data-origin-width="1346" data-origin-height="872" data-phocus-index="0"></span><figcaption>툴팁 활용</figcaption>
+</figure>
+<p></p>
+<p data-ke-size="size16">&nbsp;</p>
+<p data-ke-size="size16"><br><span style="color: #000000;">xValueMapper와 yValueMapper 함수는 데이터를 차트에 매핑한다. </span><br><span style="color: #000000;">xValueMapper는 X 축 데이터를 매핑하고, yValueMapper는 Y 축 데이터를 매핑한다.</span><br><span style="color: #000000;">색상 구분을 위해 pointColorMapper는 각 데이터 포인트의 색상을 설정했다.</span><br><br></p>
+<p data-ke-size="size16"><span style="color: #000000;">나중에는 custom 차트를 만들어보고 싶다!&nbsp;</span></p></div>
+            <!-- System - START -->
+
+<!-- System - END -->
+
+                    <div class="container_postbtn #post_button_group">
+  <div class="postbtn_like"><script>window.ReactionButtonType = 'reaction';
+window.ReactionApiUrl = '//choiemh.tistory.com/reaction';
+window.ReactionReqBody = {
+    entryId: 41
+}</script>
+<div class="wrap_btn" id="reaction-41" data-tistory-react-app="Reaction"><button class="btn_post uoc-icon" data-tiara-action-name="공감_클릭"><div class="uoc-icon"><span class="ico_postbtn ico_like">좋아요</span><span class="txt_like uoc-count">1</span></div></button></div><div class="wrap_btn wrap_btn_share"><button type="button" class="btn_post sns_btn btn_share" aria-expanded="false" data-thumbnail-url="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FR8HMg%2FbtsuIAyn565%2FAAAAAAAAAAAAAAAAAAAAAD2Nuk5oFwFo2mRBQjKBQ5Z2B5aLmxblpuKGecX5OuSi%2Fimg.jpg%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1751295599%26allow_ip%3D%26allow_referer%3D%26signature%3DvXhbg%252FzotlLWer08zH4dvXncXts%253D" data-title="[flutter] 차트 패키지 syncfusion_flutter_charts" data-description="pub.dev/packages/syncfusion_flutter_charts syncfusion_flutter_charts | Flutter Package A Flutter Charts library which includes data visualization widgets such as cartesian and circular charts, to create real-time, interactive, high-performance, animated charts. pub.dev 다행히 프로젝트에 사용했던 chart는 막대그래프였기 때문에, 차트를 custom할 필요가 없었다. project 내의 pubspec.yaml 파일에 패키지 추가해주기 syncfusion_flutter_charts: ^22.2.9.." data-profile-image="https://tistory1.daumcdn.net/tistory/4967991/attach/a8b24b452162440aa19c9d392ad69394" data-profile-name="qkrgusqls" data-pc-url="https://choiemh.tistory.com/41" data-relative-pc-url="/41" data-blog-title="✏️공부기록"><span class="ico_postbtn ico_share">공유하기</span></button>
+  <div class="layer_post" id="tistorySnsLayer" style="display: none;"><div class="bundle_post"><button class="btn_mark" data-service="url" data-tiara-action-name="공유_클릭" data-tiara-layer="copy_url" data-tiara-copy="URL복사"><span class="ico_sns ico_url"></span><span class="txt_sns">URL 복사</span></button><button class="btn_mark" data-service="kakaotalk" data-tiara-action-name="공유_클릭" data-tiara-layer="kakao" data-tiara-copy="카카오톡 공유"><span class="ico_sns ico_kt"></span><span class="txt_sns">카카오톡 공유</span></button><button class="btn_mark" data-service="facebook" data-tiara-action-name="공유_클릭" data-tiara-layer="facebook" data-tiara-copy="페이스북 공유"><span class="ico_sns ico_fb"></span><span class="txt_sns">페이스북 공유</span></button><button class="btn_mark" data-service="twitter" data-tiara-action-name="공유_클릭" data-tiara-layer="X" data-tiara-copy="엑스 공유"><span class="ico_sns ico_x"></span><span class="txt_sns">엑스 공유</span></button><span class="ico_postbtn ico_arrbt"></span></div></div>
+</div><div class="wrap_btn wrap_btn_etc" data-entry-id="41" data-entry-visibility="public" data-category-visibility="public"><button type="button" class="btn_post btn_etc2" aria-expanded="false"><span class="ico_postbtn ico_etc">게시글 관리</span></button>
+  <div class="layer_post" id="tistoryEtcLayer" style="display: none;"></div>
+</div></div>
+<button type="button" class="btn_menu_toolbar btn_subscription #subscribe" data-blog-id="4967991" data-url="https://choiemh.tistory.com/41" data-device="web_pc" data-tiara-action-name="구독 버튼_클릭" data-tiara-copy="구독하기"><em class="txt_state">구독하기</em><strong class="txt_tool_id">✏️공부기록</strong><span class="img_common_tistory ico_check_type1"></span></button>  <div data-tistory-react-app="SupportButton"></div>
+</div>
+
+                    <!-- PostListinCategory - START -->
+<div class="another_category another_category_color_gray">
+  <h4>'<a href="https://choiemh.tistory.com/category/%EA%B0%9C%EB%B0%9C">개발</a> &gt; <a href="https://choiemh.tistory.com/category/%EA%B0%9C%EB%B0%9C/Flutter">Flutter</a>' 카테고리의 다른 글</h4>
+  <table>
+    <tbody><tr>
+      <th><a href="https://choiemh.tistory.com/40">[flutter] 플러터 데이터 관리 - shared_preferences</a>&nbsp;&nbsp;<span>(0)</span></th>
+      <td>2023.09.18</td>
+    </tr>
+    <tr>
+      <th><a href="https://choiemh.tistory.com/39">[Flutter] Container와 SizedBox의 차이</a>&nbsp;&nbsp;<span>(0)</span></th>
+      <td>2023.09.12</td>
+    </tr>
+    <tr>
+      <th><a href="https://choiemh.tistory.com/36">[Flutter] 플러터에서 화면이동 하기!</a>&nbsp;&nbsp;<span>(0)</span></th>
+      <td>2023.08.03</td>
+    </tr>
+    <tr>
+      <th><a href="https://choiemh.tistory.com/29">[Flutter] 여러가지 위젯 활용하기 : DropDownButton</a>&nbsp;&nbsp;<span>(1)</span></th>
+      <td>2023.05.29</td>
+    </tr>
+    <tr>
+      <th><a href="https://choiemh.tistory.com/28">[Flutter] 여러 가지 Widget 활용하기 : Stack, Positioned</a>&nbsp;&nbsp;<span>(0)</span></th>
+      <td>2023.05.13</td>
+    </tr>
+  </tbody></table>
+</div>
+
+<!-- PostListinCategory - END -->
+
+        </div>
+        <div class="area_etc">
+          
+        </div>
+        <div class="area_reply">
+          <div data-tistory-react-app="Namecard"><div class="tt_box_namecard"><div class="tt_cont"><a class="tt_tit_cont" href="https://choiemh.tistory.com/">✏️공부기록</a><a class="tt_desc" href="https://choiemh.tistory.com/">qkrgusqls 님의 블로그입니다.</a><button class="tt_btn_subscribe" data-tiara-action-name="프로필영역 구독 버튼_클릭" data-tiara-copy="구독하기" type="button"><span class="tt_txt_g">구독하기</span><span class="tt_img_area_reply tt_ico_cross"></span></button></div><a class="tt_wrap_thumb" href="https://choiemh.tistory.com/"><span class="tt_thumb_g" style="background-image: url(&quot;https://img1.daumcdn.net/thumb/S56x56/?scode=mtistory2&amp;fname=https%3A%2F%2Ftistory1.daumcdn.net%2Ftistory%2F4967991%2Fattach%2Fa8b24b452162440aa19c9d392ad69394&quot;);"></span></a></div></div><div id="entry41Comment">
+            <div data-tistory-react-app="Comment"><div class="tt-comment-cont"><div class="tt-box-total"><span class="tt_txt_g">댓글</span><span class="tt_num_g">1</span></div><div class="tt-area-reply"><ul class="tt-list-reply"><li class="tt-item-reply rp_general tt_item_secret"><div class="tt-wrap-cmt"><div class="tt-box-thumb"><a><span class="tt-thumbnail" style="background-image: url(&quot;https://img1.daumcdn.net/thumb/C44x44@2x.fwebp.q85/?fname=https%3A%2F%2Ft1.daumcdn.net%2Ftistory_admin%2Fblog%2Fadmin%2Fprofile_default_07.png&quot;);"></span></a></div><div class="tt-box-content"><div class="tt-box-meta"><a class="tt-link-user" rel="noreferrer" target="_blank">익명</a><span class="tt_img_area_reply tt_ico_lock">비밀댓글</span></div><div class="tt-wrap-desc"><p class="tt_desc">비밀댓글입니다.</p></div><div class="tt-wrap-info"><span class="tt_date">2023. 9. 20. 17:04</span></div><div class="tt-box-modify"><button class="tt_img_area_reply tt-button-modify" type="button">더보기</button><ul class="tt-list-modify"><li><a href="https://choiemh.tistory.com/41#">링크복사</a></li></ul></div><div class="tt_box_pwd" style="display: none;"><form class="tt_form_pwd"><fieldset><legend class="screen_out">비밀번호 입력</legend><input class="tt_inp_g" maxlength="12" placeholder="비밀번호를 입력하세요." title="비밀번호" type="password" value=""><button class="tt_btn_submit" disabled="" type="submit"><span class="tt_img_area_reply tt_ico_check">입력하기</span></button></fieldset></form></div></div></div></li></ul></div><form style="margin: 0px;"><div class="tt-area-write"><div class="tt-box-thumb"><span class="tt-thumbnail" style="background-image: url(&quot;https://img1.daumcdn.net/thumb/C44x44@2x.fwebp.q85/?fname=https%3A%2F%2Ft1.daumcdn.net%2Ftistory_admin%2Fblog%2Fadmin%2Fprofile_default_03.png&quot;);"></span></div><div class="tt_wrap_write"><div class="tt-box-account"><input maxlength="32" placeholder="이름" title="이름" type="text" value=""><input maxlength="12" placeholder="비밀번호" title="비밀번호" type="password" value=""></div><div class="tt-box-textarea"><div class="tt-inner-g"><div class="tt-cmt" contenteditable="true" data-placeholder="내용을 입력하세요."></div></div></div><div class="tt-box-write"><label class="tt-xe-label"><input id="secret" type="checkbox"><span class="tt_img_area_reply tt-xe-input-helper"></span><span class="tt-xe-label-text">비밀글</span></label><button class="tt-btn_register" disabled="" type="submit" data-tiara-action-name="댓글등록_클릭" data-tiara-custom="role=guest&amp;type=comment&amp;secret=false">등록</button></div></div></div></form></div></div>
+
+          </div>
+<script type="text/javascript">loadedComments[41]=true;
+findFragmentAndHighlight(41);</script>
+
+        </div>
+      </div>
+    
+  </div>
+
+          
+      
+
+          
+
+          
+
+          
+
+
+          <div id="mEtc" class="wrap_etc">
+            <div class="inner_aside">
+              
+                  <!-- 공지사항 -->
+                  
+                    <div class="box_aside">
+                      <strong>공지사항</strong>
+                      <ul class="list_board">
+                        
+                      </ul>
+                    </div>
+                  
+                
+                  <!-- 최근에 올라온 글 -->
+                  <div class="box_aside">
+                    <strong>최근에 올라온 글</strong>
+                    <ul class="list_board">
+                      
+                        <li><a href="https://choiemh.tistory.com/61" class="link_board">비전공자의 챗봇 구축 경험 정리 : Rule-ba⋯</a></li>
+                      
+                        <li><a href="https://choiemh.tistory.com/59" class="link_board">[KT AIVLE] AIVLE DAY 2차, 1등⋯</a></li>
+                      
+                        <li><a href="https://choiemh.tistory.com/58" class="link_board">[KT AIVLE] 미니프로젝트 7차</a></li>
+                      
+                        <li><a href="https://choiemh.tistory.com/57" class="link_board">리액트 npm start 오류 해결</a></li>
+                      
+                    </ul>
+                  </div>
+                
+                  <!-- 최근에 달린 댓글 -->
+                  <div class="box_aside">
+                    <strong>최근에 달린 댓글</strong>
+                    <ul class="list_board">
+                      
+                        <li><a href="https://choiemh.tistory.com/55#comment20634266" class="link_board">https://github.com/kozisteak/A⋯</a></li>
+                      
+                        <li><a href="https://choiemh.tistory.com/56#comment18304198" class="link_board">정말 많이 도움이 될 것 같아요 !!~ 얼른 지원하러 ⋯</a></li>
+                      
+                        <li><a href="https://choiemh.tistory.com/52#comment18069302" class="link_board">ㅋㅋㅋㅋㅋㅋㅋ 불가마아님</a></li>
+                      
+                        <li><a href="https://choiemh.tistory.com/34#comment13938226" class="link_board">토큰화가 무슨말인지 너무 쉽게 이해했어요! 감사합니다 ⋯</a></li>
+                      
+                    </ul>
+                  </div>
+                
+                  <!-- 방문자수 -->
+                  <div class="box_aside lst">
+                    <dl class="list_total">
+                      <dt>Total</dt>
+                      <dd>6,252</dd>
+                    </dl>
+                    <dl class="list_visitor">
+                      <dt>Today</dt>
+                      <dd>1</dd>
+                    </dl>
+                    <dl class="list_visitor">
+                      <dt>Yesterday</dt>
+                      <dd>4</dd>
+                    </dl>
+                  </div>
+                
+                  <!-- 링크 -->
+                  <div class="box_aside">
+                    <strong>링크</strong>
+                    <ul class="list_board">
+                      
+                    </ul>
+                  </div>
+                
+                  <!-- 태그 클라우드 -->
+                  <div class="box_aside">
+                    <strong>TAG</strong>
+                    <ul class="list_tag">
+                      
+                        <li><a href="https://choiemh.tistory.com/tag/%EC%97%90%EC%9D%B4%EB%B8%94%EC%8A%A4%EC%BF%A8" class="link_tag cloud5">에이블스쿨</a></li>
+                      
+                        <li><a href="https://choiemh.tistory.com/tag/%EC%98%A4%EB%A5%98" class="link_tag cloud5">오류</a></li>
+                      
+                        <li><a href="https://choiemh.tistory.com/tag/%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%84" class="link_tag cloud5">부트캠프</a></li>
+                      
+                        <li><a href="https://choiemh.tistory.com/tag/Flutter" class="link_tag cloud5">Flutter</a></li>
+                      
+                        <li><a href="https://choiemh.tistory.com/tag/KT" class="link_tag cloud5">KT</a></li>
+                      
+                        <li><a href="https://choiemh.tistory.com/tag/ADsP" class="link_tag cloud1">ADsP</a></li>
+                      
+                        <li><a href="https://choiemh.tistory.com/tag/react" class="link_tag cloud5">react</a></li>
+                      
+                    </ul>
+                    <a href="https://choiemh.tistory.com/tag" class="link_more">more</a>
+                  </div>
+                
+                  <!-- 달력 -->
+                  <div class="box_aside">
+                    <table class="tt-calendar" cellpadding="0" cellspacing="1" style="width: 100%; table-layout: fixed">
+  <caption class="cal_month"><a href="https://choiemh.tistory.com/archive/202505" title="1개월 앞의 달력을 보여줍니다.">«</a> &nbsp; <a href="https://choiemh.tistory.com/archive/202506" title="현재 달의 달력을 보여줍니다.">2025/06</a> &nbsp; <a href="https://choiemh.tistory.com/archive/202507" title="1개월 뒤의 달력을 보여줍니다.">»</a></caption>
+  <thead>
+    <tr>
+      <th class="cal_week2">일</th>
+      <th class="cal_week1">월</th>
+      <th class="cal_week1">화</th>
+      <th class="cal_week1">수</th>
+      <th class="cal_week1">목</th>
+      <th class="cal_week1">금</th>
+      <th class="cal_week1">토</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="cal_week cal_current_week">
+      <td class="cal_day cal_day3 cal_day_sunday">1</td>
+      <td class="cal_day cal_day3">2</td>
+      <td class="cal_day cal_day3">3</td>
+      <td class="cal_day cal_day3">4</td>
+      <td class="cal_day cal_day3">5</td>
+      <td class="cal_day cal_day3">6</td>
+      <td class="cal_day cal_day3">7</td>
+    </tr>
+    <tr class="cal_week">
+      <td class="cal_day cal_day3 cal_day_sunday">8</td>
+      <td class="cal_day cal_day3">9</td>
+      <td class="cal_day cal_day3">10</td>
+      <td class="cal_day cal_day3">11</td>
+      <td class="cal_day cal_day3">12</td>
+      <td class="cal_day cal_day3">13</td>
+      <td class="cal_day cal_day3">14</td>
+    </tr>
+    <tr class="cal_week">
+      <td class="cal_day cal_day3 cal_day_sunday">15</td>
+      <td class="cal_day cal_day3">16</td>
+      <td class="cal_day cal_day3">17</td>
+      <td class="cal_day cal_day3">18</td>
+      <td class="cal_day cal_day3">19</td>
+      <td class="cal_day cal_day3">20</td>
+      <td class="cal_day cal_day3">21</td>
+    </tr>
+    <tr class="cal_week">
+      <td class="cal_day cal_day3 cal_day_sunday">22</td>
+      <td class="cal_day cal_day3">23</td>
+      <td class="cal_day cal_day3">24</td>
+      <td class="cal_day cal_day3">25</td>
+      <td class="cal_day cal_day3">26</td>
+      <td class="cal_day cal_day3">27</td>
+      <td class="cal_day cal_day3">28</td>
+    </tr>
+    <tr class="cal_week">
+      <td class="cal_day cal_day3 cal_day_sunday">29</td>
+      <td class="cal_day cal_day4">30</td>
+      <td class="cal_day1 cal_day2"> </td>
+      <td class="cal_day1 cal_day2"> </td>
+      <td class="cal_day1 cal_day2"> </td>
+      <td class="cal_day1 cal_day2"> </td>
+      <td class="cal_day1 cal_day2"> </td>
+    </tr>
+  </tbody>
+</table>
+                  </div>
+                
+                  <!-- 글 보관함 -->
+                  <div class="box_aside lst">
+                    <strong>글 보관함</strong>
+                    <ul class="list_keep">
+                      
+                        <li><a href="https://choiemh.tistory.com/archive/202504" class="link_keep">2025/04</a>
+                          (1)</li>
+                      
+                    </ul>
+                  </div>
+                
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="hide">
+      <div id="dkFoot" role="contentinfo" class="area_foot">
+        Blog is powered by
+        <em class="emph_t">Tistory</em> / Designed by
+        <em class="emph_t">Tistory</em>
+      </div>
+    </div>
+  
+
+  <script src="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/script(1).js"></script>
+  <script>
+    (function ($) {
+      $.Area.init();
+    })(jQuery);
+  </script>
+
+<div class="#menubar menu_toolbar ">
+  <h2 class="screen_out">티스토리툴바</h2>
+</div>
+<div class="#menubar menu_toolbar "></div>
+<div class="layer_tooltip">
+  <div class="inner_layer_tooltip">
+    <p class="desc_g"></p>
+  </div>
+</div>
+<div id="editEntry" style="position:absolute;width:1px;height:1px;left:-100px;top:-100px"></div>
+
+
+                <!-- DragSearchHandler - START -->
+<script src="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/search_dragselection.min.js"></script>
+
+<!-- DragSearchHandler - END -->
+
+        <!-- SyntaxHighlight - START -->
+        <link href="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/atom-one-light.min.css" rel="stylesheet"><script src="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/highlight.min.js"></script>
+<script src="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/delphi.min.js"></script>
+<script src="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/php.min.js"></script>
+<script src="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/python.min.js"></script>
+<script src="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/r.min.js" defer=""></script>
+<script src="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/ruby.min.js"></script>
+<script src="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/scala.min.js" defer=""></script>
+<script src="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/shell.min.js"></script>
+<script src="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/sql.min.js"></script>
+<script src="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/swift.min.js" defer=""></script>
+<script src="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/typescript.min.js" defer=""></script>
+<script src="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/vbnet.min.js" defer=""></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+
+        <!-- SyntaxHighlight - END -->
+
+                
+                <div style="margin:0; padding:0; border:none; background:none; float:none; clear:none; z-index:0"></div>
+<script type="text/javascript" src="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/common.js"></script>
+<script type="text/javascript">window.roosevelt_params_queue = window.roosevelt_params_queue || [{channel_id: 'dk', channel_label: '{tistory}'}]</script>
+<script type="text/javascript" src="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/roosevelt_dk_bt.js" async="async"></script>
+
+                
+                <script>window.tiara = {"svcDomain":"user.tistory.com","section":"글뷰","trackPage":"글뷰_보기","page":"글뷰","key":"4967991-41","customProps":{"userId":"0","blogId":"4967991","entryId":"41","role":"guest","trackPage":"글뷰_보기","filterTarget":false},"entry":{"entryId":"41","entryTitle":"[flutter] 차트 패키지 syncfusion_flutter_charts","entryType":"POST","categoryName":"개발/Flutter","categoryId":"1002629","serviceCategoryName":null,"serviceCategoryId":null,"author":"5082878","authorNickname":"qkrgusqls","blogNmae":"✏️공부기록","image":"kage@R8HMg/btsuIAyn565/HLnLxQvyhxYAidMgjCkJj0","plink":"/41","tags":[]},"kakaoAppKey":"3e6ddd834b023f24221217e370daed18","appUserId":"null"}</script>
+<script type="module" src="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/index(1).js"></script>
+<script src="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/polyfills-legacy(1).js" nomodule="true" defer="true"></script>
+<script src="./[flutter] 차트 패키지 syncfusion_flutter_charts_files/index-legacy(1).js" nomodule="true" defer="true"></script>
+
+                
+
+<div id="__phocus__" class="__phocus__" tabindex="-1"></div><div id="shortcutLayer" class="doc_help" style="display: none;"><button class="btn_doc_close">닫기</button>
+  <h2 class="title">단축키</h2>
+  <div class="content mac_platform">
+    <div class="container">
+      <h3 class="item_title">내 블로그</h3>
+      <table class="item">
+        <tbody>
+        
+    <tr>
+      <th>내 블로그 - 관리자 홈 전환</th>
+      <td>
+        <div class="pc">
+          <kbd>Q</kbd>
+        </div>
+        <div class="mac">
+          <kbd>Q</kbd>
+        </div>
+      </td>
+    </tr>
+  
+        
+    <tr>
+      <th>새 글 쓰기</th>
+      <td>
+        <div class="pc">
+          <kbd>W</kbd>
+        </div>
+        <div class="mac">
+          <kbd>W</kbd>
+        </div>
+      </td>
+    </tr>
+  
+        </tbody>
+      </table>
+      <h3 class="item_title">블로그 게시글</h3>
+      <table class="item">
+        <tbody>
+        
+    <tr>
+      <th>글 수정 (권한 있는 경우)</th>
+      <td>
+        <div class="pc">
+          <kbd>E</kbd>
+        </div>
+        <div class="mac">
+          <kbd>E</kbd>
+        </div>
+      </td>
+    </tr>
+  
+        
+    <tr>
+      <th>댓글 영역으로 이동</th>
+      <td>
+        <div class="pc">
+          <kbd>C</kbd>
+        </div>
+        <div class="mac">
+          <kbd>C</kbd>
+        </div>
+      </td>
+    </tr>
+  
+        </tbody>
+      </table>
+    </div>
+    <div class="container">
+      <h3 class="item_title">모든 영역</h3>
+      <table class="item">
+        <tbody>
+        
+    <tr>
+      <th>이 페이지의 URL 복사</th>
+      <td>
+        <div class="pc">
+          <kbd>S</kbd>
+        </div>
+        <div class="mac">
+          <kbd>S</kbd>
+        </div>
+      </td>
+    </tr>
+  
+        
+    <tr>
+      <th>맨 위로 이동</th>
+      <td>
+        <div class="pc">
+          <kbd>T</kbd>
+        </div>
+        <div class="mac">
+          <kbd>T</kbd>
+        </div>
+      </td>
+    </tr>
+  
+        
+    <tr>
+      <th>티스토리 홈 이동</th>
+      <td>
+        <div class="pc">
+          <kbd>H</kbd>
+        </div>
+        <div class="mac">
+          <kbd>H</kbd>
+        </div>
+      </td>
+    </tr>
+  
+        
+    <tr>
+      <th>단축키 안내</th>
+      <td>
+        <div class="pc">
+          <kbd>Shift</kbd> + <kbd>/</kbd>
+        </div>
+        <div class="mac">
+          <kbd>⇧</kbd> + <kbd>/</kbd>
+        </div>
+      </td>
+    </tr>
+  
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <p class="info">* 단축키는 한글/영문 대소문자로 이용 가능하며, 티스토리 기본 도메인에서만 동작합니다.</p>
+  </div></body></html>
